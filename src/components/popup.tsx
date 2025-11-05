@@ -9,10 +9,6 @@ const popup = ({
     "https://codecanyon.net/item/motion-art-for-elementor-wordpress-plugin/48826891";
 
   useEffect(() => {
-    // Log component load
-    console.log("Component loaded");
-
-    // Optional: Add logic to prevent scrolling the background when popup is open
     document.body.style.overflow = "hidden";
     return () => {
       document.body.style.overflow = "unset";
