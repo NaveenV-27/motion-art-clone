@@ -21,13 +21,11 @@ export default function App() {
       </div>
       <div className="relative mx-6 2xl:mx-36">
         <Header onclick={()=> {
-          console.log("Is it working?")
           setOpenedModal(true);
         }}></Header>
         <Body1></Body1>
         <Body2></Body2>
         <Body3 onclick= {()=> {
-          console.log("Is it working?")
           setOpenedModal(true);
         }}></Body3>
         <Body4></Body4>
