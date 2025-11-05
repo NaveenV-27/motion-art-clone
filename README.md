@@ -1,2 +1,2 @@
 # MotionArt-page
- Cloned MotionArt Effect in REactjs using Tailwindcss, Gsap
+ Cloned MotionArt Effect in Reactjs using Typescript, Tailwindcss, Gsap

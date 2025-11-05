@@ -5,7 +5,7 @@ export default function Header({
 } : any) {
   return (
     <div className="flex justify-between items-center py-10">
-      <div className="cursor-pointer">
+      <div className="cursor-pointer flex items-center">
         <img src={motionLogo} alt="logo" />
       </div>
       <div
